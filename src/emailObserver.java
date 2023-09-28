@@ -7,6 +7,6 @@ public class emailObserver implements observer{
     }
     @Override
     public void notifys() {
-        System.out.println("Email is sent to" + emailId);
+        System.out.println("Email is sent to " + emailId);
     }
 }

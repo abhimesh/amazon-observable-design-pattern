@@ -7,6 +7,6 @@ public class smsobserver implements observer{
     }
     @Override
     public void notifys() {
-        System.out.println("SMS is sent to" + Integer.toString(number));
+        System.out.println("SMS is sent to " + Integer.toString(number));
     }
 }
